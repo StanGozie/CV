@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my contact details</title>
+</head>
+<body>
+    <h4>Contact details</h4>
+    <p>
+        <ul>
+            <li><a href="chigoziestanleyenyoghasi@gmail.com">chigoziestanleyenyoghasi@gmail.com</a></li>
+            <li><a href="cs.enyoghasi@unizik.edu.ng">cs.enyoghasi@unizik.edu.ng</a></li>
+            <li>+234-8130101447</li>
+        </ul>
+    </p>
+    <form action="mailto:chigozieenyoghasi@yahoo.com" method="post" enctype="text/plain">
+        <!--the action attribute above specifies what should  happen after a user must have filled 
+        out the form on your website. In this case, the filled form should be posted
+    to the email chigozieenyoghasi@yahoo.com -->
+    <!--the method "post" specifies that the mail to should be posted by mail to the email specified
+    and the 'enctype' feature ensures that the email is received as plain, readable text, not with mumbo jumbo
+of computer language. this is very worthy of note-->
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value="">
+        <br>
+        <label>Your Email:</label>
+        <input type="e-mail" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="8" cols="40"></textarea><br>
+        <label>Do you want to subscribe to the email list?</label>
+        <input type ="checkbox"  name="" value=""><br> 
+        <input type="submit" name="">
+    </form>
+    <!--the <br> tags added
+        at the end of some of the form codes serves to break up the
+    for features into various lines, making the form look better (not too long a form)-->
+    <!--the "yourname" and "youremail" contained in input tags above helps with clarity
+    such that when the recipent email receives the submitted forms, it will be clearly spelt out
+what parts of the form you are reading per time, whether the sender's name, or email, or message. This 
+has to be taken note of to avoid confusion.-->
+
+    <p><a href="index.html">Back to homepage</a></p>
+</body>
+</html>

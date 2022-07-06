@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chigozie's Personal Site</title>
+ </head>
+ <body>
+     <table cellspacing = 20>
+         <tr>
+             <td><img src="html_personal_site/image_for_website.jpg" alt="Chigozie's profile picture"></td>
+             <td><h1>Chigozie Stanley Enyoghasi</h1>
+                <p><em>Founder and CEO, <strong><a href="#">StanoPeters Group</a></strong>, Abuja, Nigeria</em></p></td>
+         </tr>
+     </table>
+     <!--in order to create a layout where the image is right at the top of the webpage 
+    and a brief bio  located right beside the image, the table format
+is used to achieve that. like above, I began the webpage in a tabular format right after
+my opening <body> tag. this is purely html. the cellspacing attribute inside the <table> 
+    tag only serves to create some space between the image and the brief bio to avoid clutter.
+    the border attribute inside the <table> tag also serves to give som structure to the table, a form of aesthetics. 
+    there is a better way to go about this using css.  I removed the border though.-->
+    
+    
+    <p>Stanley is an astute software engineer, specifically an android and web <br> 
+        developer. With a strong background in STEM and various course certifications,<br> 
+        Stanley is the dream of every IT department in any organisation.<br> 
+        Having served on the boards of various multinantional companies in various <br>
+        capacities, he has a ton of experience to drive any team forward. He is a <br> Nigerian, 
+        of Igbo extraction, maried to Debbie, and has 3 children, <br> Tehilah, Asher and Nkechukwu. 
+        He lives in Los-Angeles with his family. 
+    </p> 
+    <hr size="1px"> <!--the size attribute in the <hr> tag
+    is to specify how I want the line to appear. the more the pix, 
+the thicker the line and vice versa-->
+    <h3>Education</h3>
+     <ol>
+        <li>Basic Education: All Saints Nursery and Primary School, 
+        Abakaliki, Ebonyi State.</l1>
+        <li>High School: Command Secondary School, Abakaliki,
+            Ebonyi State.</li>
+        <li>College: <a href="#">Nnamdi Azikiwe University</a>,
+            Awka, Anambra State, Nigeria.</l1>
+     </ol>
+     <hr color="red">
+     <h3>Work Experience</h3>
+     
+     <table> <!--when I added 'border = 1px' to my 
+    opening table tag above, it gave my table some kind of structure. 
+however, this is no longer used owing to the advent of CSS, which has 
+better features for styling documents. i deleted this because it was not neecessary. -->
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Work</th>
+            </tr>
+        </thead> 
+        <tbody>
+        <tr>
+            <td>May, 2015 - Sept. 2015</td>
+            
+            <td>Industrial Trainee at Chidoomerit  
+                Pharmaceutical Nigeria Limited, <br>
+                Orlu, Imo State.
+            </td>
+         </tr>
+         <tr>
+             <td>Feb. 2018 - Dec. 2018</td>
+             
+             <td>Classroom Teacher at Great Stars Academy School,
+                 Okutukutu, <br>Yenagoa, Bayelsa State.
+             </td>
+         </tr>
+         <tr>
+             <td>March, 2019 - Present</td>
+             
+             <td>Research Assistant, Department of Applied Microbiology
+                 and Brewing, <br>Nnamdi Azikiwe University, AWka.
+             </td>
+         </tr>
+        </tbody>
+     </table>
+     <hr color="red">
+     <h3>Skills</h3>
+     <table cellspacing = 30px>
+            <tr>
+                <td>Microsoft Excel</td> 
+                <td> *******</td>
+                <td cellspacing>HTML</td>
+                <td>******</td>
+                <!--placing two different table data <td> and the corresponding rating
+                   under the same <tr> tag like I did here will make your website to
+                   appear in a way that your table data appear adjacent each other,
+                   such that you have one skill and its rating on the left hand side and 
+                   another skill with the appropriate rating on the right hand side -->
+            </tr>
+            <tr>
+                <td>Microsoft Word</td>
+                <td>*******</td>
+                <td>Microsoft Power BI</td>
+                <td>******</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>******</td>
+                <td>CSS</td>
+                <td>*****</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>*****</td>
+                <td>Data Analysis</td>
+                <td>********</td>
+            </tr>
+     </table>
+         
+     <hr color="blue">
+    <a href="my_hobbies.html">My Hobbies</a><br>
+    <a href="contact_details.html">Contact Me</a><br>
+    <a href="form_input_styles.html">Form input types</a>
+    <!--notice that in the hypertext links above, i did not use <h> or <p> tags
+        on them. the outcome of this is that on the webpage, my hobbies
+    and my contact details are beside each other. -->  
+ </body>
+</html>
